@@ -5,10 +5,12 @@
 			<div class="row">
 				<div class="col s6">
 					<div class="content-left" style="display: flex;">
-						<a href="javascript:history.back()" class="backbutton">
-							<i class="fas fa-caret-square-left color-indigo1" style="font-size: 22px"></i>
-						</a>
-						&nbsp;&nbsp;&nbsp;
+						<?php if($app_session->getRequest()->getRoute() != ""):?>
+							<a href="javascript:history.back()" class="backbutton">
+								<i class="fas fa-caret-square-left color-indigo1" style="font-size: 22px"></i>
+							</a>
+							&nbsp;&nbsp;&nbsp;
+						<?php endif;?>
 						<a href="<?= path('home');?>">
 							<h1>
 								<span class="color-indigo1">B</span>
