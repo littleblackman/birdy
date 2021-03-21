@@ -1,0 +1,74 @@
+/*** Font size ***/
+body { font-size: 1.1rem}
+h1 { font-size: 1.7rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.3rem;}
+h6 { font-size: 1.2rem;}
+.date { font-size: 1rem;}
+.date i {font-size: 1.1em;}
+
+select { display: block}
+textarea { height: 11rem;}
+label { color: black}
+
+#mainContent { margin: 70px 0px 50px 0px;}
+#mainContent h2 { text-align: center;}
+
+.commands { float: right; margin-right: 10px;}
+.commands i { margin-right: 10px;  cursor: pointer; font-size: 1.6rem}
+.commands i:hover { font-weight: bold;}
+
+.backbutton { color: darkred; cursor: pointer;}
+.functionBar { margin-bottom: 20px; padding: 10px; background: #3b5999; text-align: center; border-radius: 30px; color: white; font-weight: 1.2rem;}
+.info { font-size: 1.2rem; font-weight: normal; font-style: italic;}
+.easyFlex { display: flex; justify-content: space-between; flex-wrap: wrap;}
+
+
+/*** student ****/
+
+.teacher-single .content img {  max-height: 600px; object-fit: contain; margin: auto;}
+
+
+
+/*** form ***/
+.wrap-form .checkboxes { display: flex; justify-content: space-around; flex-wrap: wrap;}
+.fullwdith { width: 100%}
+
+
+/*** color ***/
+.darkRedText { color: #c62828 }
+.darkBlueText {color: #0d47a1}
+.darkGreenText {color: #004d40}
+
+
+/*** Tableview ***/
+.listView { font-size: 1.3rem }
+.listView li { min-height: 90px; border-top: 1px solid lightgrey; margin-bottom: 10px; line-height: 40px; padding-left: 10px; font-size: 1.6rem;} 
+.listView li img { width: 80px; margin-right: 15px; float: left; border-radius: 50%; margin-top: 4px;}
+.showItemDetailButton { cursor: pointer;}
+.initialStudent { margin-right: 10px; width: 80px; height: 80px; line-height: 80px;font-size: 1.6rem; background-color: lightgray; text-align: center; border-radius:  200px; color: black; float: left}
+.listView .doubleLine { line-height: 40px;}
+
+.listViewCompact {  font-size: 1.1rem }
+.listViewCompact li { min-height: 40px; border-top: 1px solid lightgrey; line-height: 42px; padding-left: 10px; font-size: 1rem; cursor: pointer} 
+.listViewCompact li:hover { background-color:  lightgrey;} 
+
+
+
+/** trucate div ***/
+.shortView { height: 2rem; font-size: 1.1rem; text-overflow: ellipsis; overflow: hidden; padding-top: 0px; padding-bottom: 0px;}
+
+
+/*** present absent student ****/
+.present { background-color: lightgreen;}
+.absent { background-color: lightcoral;}
+.listView li .present:hover { background-color: lightgreen;}
+.absent { background-color: lightcoral;}
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

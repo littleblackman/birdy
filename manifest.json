@@ -1,0 +1,13 @@
+{
+  "short_name": "Birdy",
+  "name": "Birdy",
+  "lang": "fr-FR",
+  "description": "Application de gestion de groupes de travail",
+  "start_url": "/",
+  "background_color": "#111d5e",
+  "theme_color": "#ee56a1",
+  "dir": "ltr",
+  "display": "standalone",
+  "orientation": "any",
+  "prefer_related_applications": false
+ }
