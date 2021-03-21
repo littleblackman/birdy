@@ -1,4 +1,3 @@
-
 	<!-- navbar -->
 	<div class="navbar">
 		<div class="container">
