@@ -15,7 +15,7 @@
 
         <?php $classroom = $session->getClassroom();?>
         <div id="showStudentListView">
-            <ul>
+            <ul class="collapsible">
                 <?php include(VIEW.'classroom/_studentList.php');?>
             </ul>
         </div>

@@ -1,4 +1,4 @@
-<?php (isset($session)) ? $presencesData = $session->getPresencesData() : $presencesData = null;?> 
+<?php (isset($session)) ? $presencesData = $session->getPresencesData() : $presencesData = [];?> 
 
 <li>
     <div class="collapsible-header">
@@ -7,10 +7,12 @@
             Liste des apprenants (<?= $classroom->getNbStudents();?>)
         </h5>
     </div>
+    
     <div class="collapsible-body">
             <ul id="studentsList" class="listView">
                 <?php foreach($classroom->getStudents() as $student):?>
-                <li class="showItemDetailButton <?php if(key_exists($student->getId(), $presencesData)) echo $presencesData[$student->getId()];?>" 
+
+                <li class="showItemDetailButton <?php if(is_array($presencesData) && key_exists($student->getId(), $presencesData)) echo $presencesData[$student->getId()];?>" 
                     data-studentid="<?= $student->getId();?>" 
                     id="student-row-<?= $student->getId() ;?>">
 
